@@ -1,0 +1,108 @@
+#Fondo{
+    background-image: url(bgtile.png);
+ /*   width: 440px;
+    height: 490px;*/
+}
+
+#Cartel{
+    width: 430px;
+    height: 454px;
+    background: linear-gradient(180deg, yellow 0%, rgb(221, 221, 26) 35%, white 100%);
+    padding: 0.5em;
+    border: 10px solid black;
+    margin-left: 30%;
+    overflow: auto
+}
+
+.Titulo{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 35px;
+}
+
+.Texto{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#Caja1{
+    width: 120px;
+    height: 75px;
+    background-color: rgb(85, 170, 85);
+    background-image: url(star.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0.5em;
+    border: 7px solid black;
+    border-bottom-left-radius: 45px 50px;
+    border-bottom-right-radius: 15px 20px;
+    border-top-right-radius: 15px 20px;
+    border-top-left-radius: 15px 20px;
+    display: inline-block;
+    position: relative;
+    margin-left: 55px;
+    margin-top: 40px;
+}
+
+#Caja2{
+    width: 120px;
+    height: 75px;
+    background-color: rgb(85, 170, 85);
+    background-image: url(star.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 0.5em;
+    border: 7px solid black;
+    border-bottom-left-radius: 45px 50px;
+    border-bottom-right-radius: 15px 20px;
+    border-top-right-radius: 15px 20px;
+    border-top-left-radius: 15px 20px;
+    display: inline-block;
+    position: relative;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+#Caja3{
+    width: 120px;
+    height: 75px;
+    background-color: rgb(85, 170, 85);
+    background-image: url(star.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 0.5em;
+    border: 7px solid black;
+    border-bottom-left-radius: 45px 50px;
+    border-bottom-right-radius: 15px 20px;
+    border-top-right-radius: 15px 20px;
+    border-top-left-radius: 15px 20px;
+    display: inline-block;
+    position: relative;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+#Caja4{
+    width: 120px;
+    height: 75px;
+    background-color: rgb(85, 170, 85);
+    background-image: url(star.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0.5em;
+    border: 7px solid black;
+    border-bottom-left-radius: 45px 50px;
+    border-bottom-right-radius: 15px 20px;
+    border-top-right-radius: 15px 20px;
+    border-top-left-radius: 15px 20px;
+    display: inline-block;
+    position: relative;
+    margin-left: 25px;
+    margin-top: 10px;
+}
